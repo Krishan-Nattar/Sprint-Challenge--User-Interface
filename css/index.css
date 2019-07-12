@@ -223,3 +223,14 @@ button:hover{
 .jumbo:hover{
     /* insert hover animation here */
 }
+
+.work-together{
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Box Color Section */
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
