@@ -76,20 +76,22 @@ header {
     display:flex;
     align-items:baseline;
 }
-nav{
+nav {
     flex-grow:1;
     display:flex;
     justify-content: space-around;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color:black;
 }
 
+nav a:hover {
 /* Insert Nav hover animation */
+}
 
-.jumbo{
+.jumbo {
     margin: 30px 0;
 }
 
@@ -167,11 +169,11 @@ footer nav a {
     text-decoration: none;
 }
 
-.about-intro{
+.about-intro {
     padding:20px;
 }
 
-.main-content{
+.main-content {
     margin-top:20px;
     border-top: 1px dashed black;
     display:flex;
@@ -179,26 +181,22 @@ footer nav a {
     justify-content: space-around;
 }
 
-.main-content div{
+.main-content div {
     width: 47%;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
     padding-top: 20px;
-    /* display:flex; */
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-
 }
 
-.main-content img{
+.main-content img {
     margin-bottom: 10px;
 }
 
-.main-content p{
+.main-content p {
     margin-bottom: 10px;
 }
 
-button{
+button {
     background-color: white;
     border-radius: 7px;
     border: 2px solid black;
@@ -208,62 +206,62 @@ button{
 }
 
 
-button:active{
+button:active {
     outline:0;
 }
 
-button:focus{
+button:focus {
     outline:0;
 }
 
-button:hover{
+button:hover {
     /* insert hover animation here */
 }
 
-.jumbo:hover{
+.jumbo:hover {
     /* insert hover animation here */
 }
 
-.work-together{
+.work-together {
     margin: 20px 0;
     padding: 20px;
 }
 
 /* Box Color Section */
 
-.middle-content .boxes .box1{
+.middle-content .boxes .box1 {
     background-color: teal;
 }
 
-.middle-content .boxes .box2{
+.middle-content .boxes .box2 {
     background-color: gold;
 }
-.middle-content .boxes .box3{
+.middle-content .boxes .box3 {
     background-color: cadetblue;
 }
-.middle-content .boxes .box4{
+.middle-content .boxes .box4 {
     background-color: coral;
 }
-.middle-content .boxes .box5{
+.middle-content .boxes .box5 {
     background-color: crimson;
 }
-.middle-content .boxes .box6{
+.middle-content .boxes .box6 {
     background-color: forestgreen;
 }
-.middle-content .boxes .box7{
+.middle-content .boxes .box7 {
     background-color: darkorchid;
 }
-.middle-content .boxes .box8{
+.middle-content .boxes .box8 {
     background-color: hotpink;
 }
-.middle-content .boxes .box9{
+.middle-content .boxes .box9 {
     background-color: indigo;
 }
-.middle-content .boxes .box10{
+.middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
 
-footer a:hover{
+footer a:hover {
     /* Insert animations here later */
 }
 
