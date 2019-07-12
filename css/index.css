@@ -197,3 +197,29 @@ footer nav a {
 .main-content p{
     margin-bottom: 10px;
 }
+
+button{
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    width: 129 px;
+    height: 38px;
+    outline: 0;
+}
+
+
+button:active{
+    outline:0;
+}
+
+button:focus{
+    outline:0;
+}
+
+button:hover{
+    /* insert hover animation here */
+}
+
+.jumbo:hover{
+    /* insert hover animation here */
+}
