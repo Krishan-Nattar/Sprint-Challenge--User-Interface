@@ -68,7 +68,32 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
+}
+/* Insert Container animation */
+
+header {
+    display:flex;
+    align-items:baseline;
+}
+nav {
+    flex-grow:1;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover {
+    animation: yellowgreen_shadow 2s;
+}
+
+.jumbo {
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .top-content {
@@ -143,4 +168,150 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-intro {
+    padding: 0 20px;
+}
+
+.main-content {
+    margin-top:20px;
+    border-top: 1px dashed black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-content div {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main-content img {
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    width: 139px;
+    height: 38px;
+    outline: 0;
+}
+
+/* Buttons will bounce and glow */
+button:hover {
+    animation: blue_flash 1s;
+}
+
+/* Hover over banner to make it glow red */
+.jumbo:hover {
+    animation: redbox_shadow 7s;
+}
+
+.work-together {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Box Color Section */
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+footer a:hover {
+    /* Insert animations here later */
+    animation: yellow_flash 2s;
+}
+
+/* Put animation keyframes below here */
+
+
+/* Bottom nav links glow yellow */
+@keyframes yellow_flash{
+    0% {
+    }
+    50% {
+        color:yellow;
+    }    
+    100% {
+        color:white;
+    }
+}
+
+/* Top nav links barely glow yellowgreen */
+@keyframes yellowgreen_shadow{
+    0% {
+    }
+    50% {
+        text-shadow:0px 0px 10px yellowgreen;
+    }
+    100% {
+        text-shadow:none;
+    }
+}
+
+/* Main Banner will glow */
+@keyframes redbox_shadow{
+    0% {
+    }
+    50% {
+        box-shadow: 0px 0px 10px red;
+    }
+    100% {
+    }
+}
+
+/* Buttons will bounce and glow */
+@keyframes blue_flash{
+    0% {
+        background-color: white;
+    }
+    14.2%{
+        margin-top: -1%;
+    }
+    50% {
+        background-color: lightblue;
+        box-shadow: 0px 0px 30px red;
+    }
+    100% {
+        background-color: white;
+        margin-top: 0px;
+    }
 }
