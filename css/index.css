@@ -262,3 +262,9 @@ button:hover{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
+footer a:hover{
+    /* Insert animations here later */
+}
+
+/* Put animation keyframes below here */
