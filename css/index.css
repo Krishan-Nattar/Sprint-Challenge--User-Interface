@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
 }
 /* Insert Container animation */
 
