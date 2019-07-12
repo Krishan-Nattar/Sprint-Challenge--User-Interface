@@ -263,6 +263,18 @@ button:hover {
 
 footer a:hover {
     /* Insert animations here later */
+    animation: yellow_flash 2s;
 }
 
 /* Put animation keyframes below here */
+
+@keyframes yellow_flash{
+    0% {
+    }
+    50% {
+        color:yellow;
+    }    
+    100% {
+        color:white;
+    }
+}
